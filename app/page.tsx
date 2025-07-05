@@ -78,13 +78,6 @@ export default function HomePage() {
                 Start Your Free Trial
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-2 border-slate-300 hover:border-blue-600 hover:text-blue-600 px-8 py-4 text-lg bg-transparent"
-              >
-                Watch Demo
-              </Button>
             </div>
 
             <div className="flex items-center justify-center space-x-8 text-sm text-slate-500">
@@ -269,7 +262,7 @@ export default function HomePage() {
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Plus</h3>
                   <p className="text-slate-600 mb-6">For growing businesses</p>
                   <div className="mb-8">
-                    <span className="text-4xl font-bold text-slate-900">$99</span>
+                    <span className="text-4xl font-bold text-slate-900">$59</span>
                     <span className="text-slate-600">/month</span>
                   </div>
                   <Button className="w-full mb-8 bg-gradient-to-r from-red-600 to-blue-600 hover:from-red-700 hover:to-blue-700 text-white">
