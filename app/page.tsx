@@ -397,13 +397,16 @@ export default function HomePage() {
               Start Your Free Trial
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-4 text-lg bg-transparent"
-            >
-              Schedule Demo
-            </Button>
+
+            <a href="https://reezo-apparel.myshopify.com" target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-4 text-lg bg-transparent"
+              >
+                Store Demo
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -446,35 +449,9 @@ export default function HomePage() {
             </div>
 
             <div>
-              <h4 className="font-semibold mb-4">Resources</h4>
-              <ul className="space-y-2 text-slate-400">
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Help Center
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Case Studies
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-slate-400">
-                <li>hello@reezo.ai</li>
+                <li>support@reezo.ai</li>
                 <li>1-800-REEZO-AI</li>
                 <li>Bengaluru, IN</li>
               </ul>
@@ -482,8 +459,8 @@ export default function HomePage() {
           </div>
 
           <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-slate-400">© 2024 Reezo AI. All rights reserved.</p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+            <p className="text-slate-400">© 2025 Reezo AI. All rights reserved.</p>
+            {/* <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-slate-400 hover:text-white transition-colors">
                 Privacy
               </a>
@@ -493,7 +470,7 @@ export default function HomePage() {
               <a href="#" className="text-slate-400 hover:text-white transition-colors">
                 Cookies
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
